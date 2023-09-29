@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "caneta BIC preta",
+      "price": 5.99
+    },
+    {
+      "id": 2,
+      "name": "Smarthphone Sansung S23 Pro",
+      "price": 5000.99
+    },
+    {
+      "name": "smartphone",
+      "price": "5000",
+      "id": 3
+    }
+  ]
+}
