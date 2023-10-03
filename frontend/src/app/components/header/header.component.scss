@@ -1,0 +1,36 @@
+@import '../../../assets/styles/pallets.scss';
+
+mat-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--primary-color);
+    height: 70px;
+    color: var(--cinza-escuro);
+
+    .title {
+        padding-left: 25px;
+        & :hover {
+            background: var(--vermelho);
+        }
+    }
+
+    i {
+        padding-right: 5px;
+    }
+}
+
+img {
+    max-height: 50px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+}

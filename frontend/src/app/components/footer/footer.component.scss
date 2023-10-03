@@ -1,0 +1,23 @@
+@import '../../../assets/styles/pallets.scss';
+
+i, span {
+    color: var(--cinza-escuro);
+    vertical-align: middle;
+
+    .red {
+        color: var(--vermelho);
+    }
+}
+
+.footer {
+    background: var(--primary-color);
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+
+    span {
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+}
