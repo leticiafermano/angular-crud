@@ -4,14 +4,13 @@ mat-toolbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--primary-color);
     height: 70px;
     color: var(--cinza-escuro);
 
     .title {
-        padding-left: 25px;
-        & :hover {
-            background: var(--vermelho);
+        padding: 0px 25px 0px 0px;
+        &:hover {
+            color: var(--primary-color);
         }
     }
 

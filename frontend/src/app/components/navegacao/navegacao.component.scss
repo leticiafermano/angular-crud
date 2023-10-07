@@ -1,0 +1,26 @@
+@import '../../../assets/styles/pallets.scss';
+
+.sidenav {
+    background-color: var(--primary-color);
+    width: 200px;
+
+    i {
+        padding-right: 10px;
+    }
+}
+
+a {
+    align-items: center;
+    &:hover {
+        background-color: var(--cinza-claro);
+    }
+}
+
+.nav-lis a mat-icon{
+    vertical-align: middle;
+}
+
+.content {
+    padding: 16px;
+    background: var(--branco);
+}
