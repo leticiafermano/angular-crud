@@ -14,13 +14,18 @@ import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
 import { HomeComponent } from './components/home/home.component';
+import { ProductCrudComponent } from './components/product-crud/product-crud.component';
+import { ProductCreateComponent } from './components/product-crud/product-create/product-create.component';
+import {MatButtonModule} from '@angular/material/button';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
     NavegacaoComponent,
-    HomeComponent
+    HomeComponent,
+    ProductCrudComponent,
+    ProductCreateComponent
   ],
   imports: [
     BrowserModule,
@@ -31,6 +36,7 @@ import { HomeComponent } from './components/home/home.component';
     MatListModule,
     MatIconModule,
     MatCardModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
