@@ -17,6 +17,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ProductCrudComponent } from './components/product-crud/product-crud.component';
 import { ProductCreateComponent } from './components/product-crud/product-create/product-create.component';
 import {MatButtonModule} from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,6 +38,7 @@ import {MatButtonModule} from '@angular/material/button';
     MatIconModule,
     MatCardModule,
     MatButtonModule,
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,14 @@
+.snackbar-container {
+
+    &.erro {
+        background: var(--vermelho) !important;
+        box-shadow: 0px 6px 12px -6px rgba(24, 39, 75, 0.12), 0px 8px 24px -4px rgba(24, 39, 75, 0.08) !important;
+        border-radius: 8px !important;
+        color: var(--branco);
+        max-width: fit-content;
+    }
+
+    &.sucesso {
+      background-color: #78BE21 !important;
+    }
+}
