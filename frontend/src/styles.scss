@@ -1,3 +1,6 @@
+@import './assets/styles/pallets.scss';
+@import './assets/styles/button.scss';
+
 body {
   font-family: Roboto, 'Helvetica Neue', sans-serif;
 }
@@ -13,6 +16,7 @@ html,
 body {
   height: 100%;
 }
+
 button,
 a {
   cursor: pointer;
