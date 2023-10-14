@@ -1,7 +1,10 @@
+@import '../../../../assets/styles/forms.scss';
+
 .container-button {
     display: flex;
     justify-content: space-between;
     width: 250px;
+    padding: 15px;
 }
 
 button {

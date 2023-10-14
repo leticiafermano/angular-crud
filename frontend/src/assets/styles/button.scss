@@ -5,6 +5,7 @@ button {
     padding: 15px 28px !important;
     text-transform: uppercase !important;
     border: none;
+    margin-bottom: 15px;
 }
 
 button[disabled] {
@@ -15,6 +16,6 @@ button:hover {
     box-shadow: 0px 6px 12px -6px rgba(24, 39, 75, 0.12), 0px 8px 24px -4px rgba(24, 39, 75, 0.08) !important;
 }
 
-button.button-save {
+button.button-primary {
     background-color: var(--primary-color) !important;
 }
