@@ -1,0 +1,23 @@
+@import '../../../../assets/styles/table.scss';
+
+.edit {
+    margin-right: 10px;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.delete {
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+i.edit {
+    color: var(--primary-color);
+}
+
+i.delete {
+    color: var(--vermelho);
+}
