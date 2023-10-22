@@ -9,7 +9,6 @@ import { Observable } from 'rxjs';
 export class ProductService {
 
   baseUrl = "http://localhost:3000/products"
-  pageSize = 10
 
   constructor( private http: HttpClient) { }
 
@@ -18,7 +17,16 @@ export class ProductService {
   }
 
   readProduct(): Observable<Product[]> {
-    // const url = `${this.baseUrl}?_limit=${this.pageSize}`;
     return this.http.get<Product[]>(this.baseUrl);
+  }
+
+  readeById(id: string): Observable<Product> {
+    const url = `${this.baseUrl}/${id}`
+    return this.http.get<Product>(url);
+  }
+
+  updateProduct(product: Product): Observable<Product> {
+    const url = `${this.baseUrl}/${product.id}`
+    return this.http.put<Product>(url, product);
   }
 }
