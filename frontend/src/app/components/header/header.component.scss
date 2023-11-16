@@ -5,12 +5,12 @@ mat-toolbar {
     align-items: center;
     justify-content: space-between;
     height: 70px;
-    color: var(--cinza-escuro);
+    background: var(--header);
 
     .title {
         padding: 0px 25px 0px 0px;
         &:hover {
-            color: var(--primary-color);
+            color: var(--white);
         }
     }
 
@@ -20,13 +20,18 @@ mat-toolbar {
 }
 
 img {
-    max-height: 50px;
+    max-height: 80px;
+    
+    &:hover {
+        opacity: 0.7;
+    }
 }
 
 a {
     display: flex;
     align-items: center;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .container-header {

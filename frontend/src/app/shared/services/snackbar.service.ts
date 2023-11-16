@@ -7,11 +7,13 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 export class SnackbarService {
   constructor(private snackbar: MatSnackBar) {}
 
-  openSnackBarCustom(msg: string) {
+  openSnackBarCustom(msg: string, isError = false) {
     this.snackbar.open(msg, 'X', {
-      duration: 5000,
+      duration: 500000000,
       horizontalPosition: 'right',
       verticalPosition: 'bottom',
+      // panelClass: isError ? ['msg-erro'] : ['msg-sucesso'],
+      panelClass: ['sucesso']
     });
   }
 }

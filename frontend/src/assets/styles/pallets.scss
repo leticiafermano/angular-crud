@@ -1,8 +1,12 @@
 * {
-    --primary-color: #00b894;
+    --header: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,85,121,1) 35%, rgba(0,212,255,1) 100%);
+
+    --primary-color: #095579;
+    --secundary-color: #020024;
+    --third-color: #00d4ff;
     
-    --cinza-escuro: #2d3436;
-    --cinza-claro: #dfe6e9;
-    --branco: #fff;
-    --vermelho: #ff7675;
+    --dark-grey: #2d3436;
+    --white: #fff;
+    --red: #ff7675;
+    --green: #78BE21;
 }

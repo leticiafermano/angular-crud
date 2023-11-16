@@ -1,19 +1,30 @@
 @import '../../../assets/styles/pallets.scss';
 
 .sidenav {
-    background-color: var(--primary-color);
+    background-color: var(--secundary-color);
+    color: white;
     width: 200px;
 
-    i {
+    mat-icon {
         padding-right: 10px;
     }
 }
 
 a {
+    display: flex;
+    height: 50px;
+    padding-left: 10px;
     align-items: center;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 500;
+
     &:hover {
-        background-color: var(--cinza-claro);
-    }
+        background-color: var(--white);
+        color: var(--secundary-color);
+    }    
 }
 
 .nav-lis a mat-icon{
@@ -22,5 +33,5 @@ a {
 
 .content {
     padding: 16px;
-    background: var(--branco);
+    background: var(--white);
 }

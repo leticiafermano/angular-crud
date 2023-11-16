@@ -1,11 +1,11 @@
 @import '../../../assets/styles/pallets.scss';
 
 i, span {
-    color: var(--cinza-escuro);
+    color: var(--secundary-color);
     vertical-align: middle;
 
     .red {
-        color: var(--vermelho);
+        color: var(--red);
     }
 }
 
