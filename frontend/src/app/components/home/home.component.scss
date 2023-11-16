@@ -1,10 +1,23 @@
-.home .title {
-    font-size: 3rem;
-    font-weight: 300;
+mat-card {
+    align-items: center;
+}
+
+.home .title { 
+    font-family: Arial, sans-serif; 
+    font-size: 2.5rem;
     line-height: 1.2;
+    font-weight: bold; 
+    color: var(--primary-color); 
+    text-shadow: 2px 2px 4px rgb(181, 179, 179); 
 }
 
 .home .subtitle {
     padding-top: 16px;
     font-size: 1.1rem;
+}
+
+img {
+    padding: 20px;
+    max-height: 50vh;
+    max-width: 50vw;
 }
